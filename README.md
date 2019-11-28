@@ -11,6 +11,6 @@ As Ergonode evolves we hope to strenghthen the community
 of contibutions that help make it an awesome product
 in each release cycle.
 
-
-
+[Ergonode Website](https://www.ergonode.com)
+[Ergonote Github](https://github.com/ergonode)
 
