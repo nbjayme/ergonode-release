@@ -1,0 +1,20 @@
+[submodule "rel-alpha-20191128/docker-master"]
+	path = rel-alpha-20191128/docker-master
+	url = https://github.com/ergonode/docker
+	branch = master
+[submodule "rel-alpha-20191128/backend-develop"]
+	path = rel-alpha-20191128/backend-develop
+	url = https://github.com/ergonode/backend.git
+	branch = develop
+[submodule "rel-alpha-20191128/backend-master"]
+	path = rel-alpha-20191128/backend-master
+	url = https://github.com/ergonode/backend.git
+	branch = master
+[submodule "rel-alpha-20191128/frontend-develop"]
+	path = rel-alpha-20191128/frontend-develop
+	url = https://github.com/ergonode/frontend.git
+	branch = develop
+[submodule "rel-alpha-20191128/frontend-master"]
+	path = rel-alpha-20191128/frontend-master
+	url = https://github.com/ergonode/frontend.git
+	branch = master
