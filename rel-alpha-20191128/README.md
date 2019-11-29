@@ -53,9 +53,9 @@ Build the backend server
 
 You are now in Backend API PHP, then run build.sh
 
-$ cd /var/www
-$ ./build.sh
-$ exit
+> cd /var/www
+> ./build.sh
+> exit
 
 Build the frontend server
 
@@ -63,9 +63,9 @@ Build the frontend server
 
 You are now in Frontend Node, then run build.sh
 
-$ cd /Application
-$ ./build.sh
-$ exit
+> cd /Application
+> ./build.sh
+> exit
 
 Bring down the setup docker instance
 
