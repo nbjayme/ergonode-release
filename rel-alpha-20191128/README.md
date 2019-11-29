@@ -7,22 +7,27 @@
 #### Update Specific Submodules ####
 
 > cd rel-alpha-20191128/docker
+
 > git submodule update --init
 
 If you want Ergonode from Develop / Bleeding Edge :
 
 > cd rel-alpha-20191128/backend-develop
+
 > git submodule update --init
 
 > cd rel-alpha-20191128/frontend-develop
+
 > git submodule update --init
 
 If you want Ergonode from Master 
 
 > cd rel-alpha-20191128/backend-master
+
 > git submodule update --init
 
 > cd rel-alpha-20191128/frontend-master
+
 > git submodule update --init
 
 #### Adjust Settings / Configure Ports ####
@@ -31,13 +36,16 @@ If you want Ergonode from Master
 
 Set configurations in  env-docker, env-backend, env-frontend
 
-> cd rel-alpha-20191128
 
 Run setup.sh with specific ergonode branch you want to work on
+
+> cd rel-alpha-20191128
 
 > ./setup.sh master
 
 or
+
+> cd rel-alpha-20191128
 
 > ./setup.sh develop
 
@@ -45,6 +53,7 @@ or
 #### Run Docker in Bash Mode for Manual Setup ####
 
 > cd rel-alpha-20191128/docker
+
 > bin/docker setup-on
 
 Build the backend server
@@ -54,7 +63,9 @@ Build the backend server
 You are now in Backend API PHP, then run build.sh
 
 > cd /var/www
+
 > ./build.sh
+
 > exit
 
 Build the frontend server
@@ -64,7 +75,9 @@ Build the frontend server
 You are now in Frontend Node, then run build.sh
 
 > cd /Application
+
 > ./build.sh
+
 > exit
 
 Bring down the setup docker instance
@@ -75,8 +88,8 @@ Bring down the setup docker instance
 
 > bin/docker serve-on
 
-Note: Frontend serve will take a while to compile.
-
 With your favorite browser, enjoy Ergonode at http://localhost
 
 
+Note: The frontend serve can take a while to compile.  You may
+also configue Ergonode to run on another IP aside from localhost.
