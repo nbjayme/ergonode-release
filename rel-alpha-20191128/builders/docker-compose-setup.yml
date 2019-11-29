@@ -18,6 +18,8 @@ services:
             context: "./config/php"
         container_name: "ergonode-php-setup"
         command: '/bin/bash'
+        stdin_open: true
+        tty: true
         working_dir: "/"
         volumes:
             - "./../backend:/var/www"
