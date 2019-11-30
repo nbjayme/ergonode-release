@@ -18,3 +18,23 @@
 	path = rel-alpha-20191128/frontend-master
 	url = https://github.com/ergonode/frontend.git
 	branch = master
+[submodule "rel-alpha-20191130/docker-master"]
+	path = rel-alpha-20191130/docker-master
+	url = https://github.com/ergonode/docker.git
+	branch = master
+[submodule "rel-alpha-20191130/backend-master"]
+	path = rel-alpha-20191130/backend-master
+	url = https://github.com/ergonode/backend.git
+	branch = master
+[submodule "rel-alpha-20191130/backend-develop"]
+	path = rel-alpha-20191130/backend-develop
+	url = https://github.com/ergonode/backend.git
+	branch = develop
+[submodule "rel-alpha-20191130/frontend-develop"]
+	path = rel-alpha-20191130/frontend-develop
+	url = https://github.com/ergonode/frontend.git
+	branch = develop
+[submodule "rel-alpha-20191130/frontend-master"]
+	path = rel-alpha-20191130/frontend-master
+	url = https://github.com/ergonode/frontend.git
+	branch = master
