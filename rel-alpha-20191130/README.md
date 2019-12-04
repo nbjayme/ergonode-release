@@ -6,53 +6,53 @@
 
 #### Update Specific Submodules ####
 
-> cd rel-alpha-20191128/docker
+> cd rel-alpha-20191130/docker
 
 > git submodule update --init
 
 If you want Ergonode from Develop / Bleeding Edge :
 
-> cd rel-alpha-20191128/backend-develop
+> cd rel-alpha-20191130/backend-develop
 
 > git submodule update --init
 
-> cd rel-alpha-20191128/frontend-develop
+> cd rel-alpha-20191130/frontend-develop
 
 > git submodule update --init
 
 If you want Ergonode from Master 
 
-> cd rel-alpha-20191128/backend-master
+> cd rel-alpha-20191130/backend-master
 
 > git submodule update --init
 
-> cd rel-alpha-20191128/frontend-master
+> cd rel-alpha-20191130/frontend-master
 
 > git submodule update --init
 
 #### Adjust Settings / Configure Ports ####
 
-> cd rel-alpha-20191128/builders
+> cd rel-alpha-20191130/builders
 
 Set configurations in  env-docker, env-backend, env-frontend
 
 
 Run setup.sh with specific ergonode branch you want to work on
 
-> cd rel-alpha-20191128
+> cd rel-alpha-20191130
 
 > ./setup.sh master
 
 or
 
-> cd rel-alpha-20191128
+> cd rel-alpha-20191130
 
 > ./setup.sh develop
 
 
 #### Run Docker in Bash Mode for Manual Setup ####
 
-> cd rel-alpha-20191128/docker
+> cd rel-alpha-20191130/docker
 
 > bin/docker setup-on
 
