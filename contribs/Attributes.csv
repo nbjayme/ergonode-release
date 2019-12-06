@@ -1,0 +1,49 @@
+ACTION,Attribute Code,Attribute Type,Label,PlaceHolder,Group
+ADD,prod_name,TEXT,,Product Name,Default
+ADD,manufacturer,TEXT,,Manufacturer,Default
+ADD,brand_name,TEXT,,Brand Name,Default
+ADD,category,TEXT,,Category,Default
+ADD,color,TEXT,,Color,Default
+ADD,summary,TEXTAREA,,Summary,Default
+ADD,description,TEXTAREA,,Description,Default
+ADD,features,TEXTAREA,,Key Product Features,Default
+ADD,prod_weight,TEXT,,Weight,Measurement
+ADD,ship_weight,TEXT,,Shipping Weight,Measurement
+ADD,width,TEXT,,Width,Measurement
+ADD,height,TEXT,,Height,Measurement
+ADD,diameter,TEXT,,Diameter,Measurement
+ADD,pack_quantity,NUMERIC,,Package Quantity,Default
+ADD,pack_contents,TEXTAREA,,Package Contents,Default
+ADD,materials,TEXTAREA,,Material Type,Default
+ADD,bullet_points,TEXTAREA,,Bullet Points,Default
+ADD,ratings,NUMERIC,,Ratings,Default
+ADD,warranty,TEXTAREA,,Product Warranty,Default
+ADD,ranking,NUMERIC,,Product Ranking,Default
+ADD,variation_01,TEXT,,Variation 1,Variations
+ADD,variation_02,TEXT,,Variation 2,Variations
+ADD,variation_03,TEXT,,Variation 3,Variations
+ADD,variation_04,TEXT,,Variation 4,Variations
+ADD,variation_05,TEXT,,Variation 5,Variations
+ADD,img_feature,IMAGE,,Feature Image,Images
+ADD,Img_01,IMAGE,,Image 01,Images
+ADD,Img_02,IMAGE,,Image 02,Images
+ADD,Img_03,IMAGE,,Image 03,Images
+ADD,Img_04,IMAGE,,Image 04,Images
+ADD,review_text_01,TEXTAREA,,Review Text 1,Reviews
+ADD,review_text_02,TEXTAREA,,Review Text 2,Reviews
+ADD,review_text_03,TEXTAREA,,Review Text 3,Reviews
+ADD,review_by_01,TEXTAREA,,Reviewer 1,Reviews
+ADD,review_by_02,TEXTAREA,,Reviewer 2,Reviews
+ADD,review_by_03,TEXTAREA,,Reviewer 3,Reviews
+ADD,question_01,TEXTAREA,,Question 1,Q_A
+ADD,question_02,TEXTAREA,,Question 2,Q_A
+ADD,question_03,TEXTAREA,,Question 3,Q_A
+ADD,question_04,TEXTAREA,,Question 4,Q_A
+ADD,question_05,TEXTAREA,,Question 5,Q_A
+ADD,question_06,TEXTAREA,,Question 6,Q_A
+ADD,answer_01,TEXTAREA,,Answer 1,Q_A
+ADD,answer_02,TEXTAREA,,Answer 2,Q_A
+ADD,answer_03,TEXTAREA,,Answer 3,Q_A
+ADD,answer_04,TEXTAREA,,Answer 4,Q_A
+ADD,answer_05,TEXTAREA,,Answer 5,Q_A
+ADD,answer_06,TEXTAREA,,Answer 6,Q_A
