@@ -4,6 +4,14 @@
  * See LICENSE.txt for license details.
  */
 
+/**
+ * Modified by Nathaniel Jayme
+ * Import atrributes and auto-create attribute group if non-existent
+ * TODO: Improve attribute group creation to not need reloading of groups 
+ *       from database
+ *       Be able to work with image and specify  formats or type of image file
+ *       Be able to work with select and multi-select 
+ */
 declare(strict_types = 1);
 
 namespace Ergonode\Attribute\Application\Command;
@@ -72,7 +80,6 @@ class ImportAttributeCommand extends Command
         $this->addArgument('hint', InputArgument::REQUIRED, 'hint');
         $this->addArgument('placeholder', InputArgument::REQUIRED, 'placeholder');
         */
-        
     }
 
     public function createGroup($code)
@@ -148,7 +155,7 @@ class ImportAttributeCommand extends Command
             $dat = [
                 'code' => new AttributeCode($line[1]),
                 'label' => new TranslatableString([
-                        'EN' => '',
+                        'EN' => $line[3],
                     ]),
                 'placeholder' => new TranslatableString([
                         'EN' => $line[4],
@@ -172,11 +179,11 @@ class ImportAttributeCommand extends Command
                 $dat['label'],
                 $dat['hint'],
                 $dat['placeholder'],
-                $dat['multilingual'], 
+                $dat['multilingual'],
                 [$dat['groupid'] ]
             );
-            $this->messageBus->dispatch($command);  
-            $output->writeln('<info>Attributes created.</info>');
+            $this->messageBus->dispatch($command);
+            $output->writeln('<info>Attribute ' . $dat['label'] . ' created.</info>');
         }
         fclose($f);
 
